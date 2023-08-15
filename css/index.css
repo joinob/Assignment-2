@@ -503,3 +503,48 @@ color: white;
 .small-text {
     text-align: center;
 } 
+
+
+@media screen and (max-width: 576px) {
+    .navigation,
+    .nav-two>ul,
+    .banner,
+    .gamer,
+    .cards,
+    .section-two,
+    .sec-three-part-one,
+    .sec-three,
+    li> a,
+    .murkho,
+    .foot-li> ul,
+    .terms>ul
+    {
+        flex-direction: column;
+        gap:5px
+    }
+    .im-g {
+        width:300px;
+        height:300px;  
+    }
+    .h-four{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .images{
+        margin-top: 5px;
+        width:100px;
+        height:100px;
+    }
+   .text-content{
+    text-align: center;
+   }
+   .paragraph-one{
+    font-size: 20px;
+    /* word-wrap: wrap; */
+   }
+   .cards{
+    /* margin-top:5px; */
+    gap:12px;
+   }
+    
+}
