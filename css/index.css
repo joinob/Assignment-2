@@ -450,10 +450,10 @@ li> a {
     /* border: 2px solid black; */
     background: black;
 }
-.nav-one{
-     /* background:black; */
-    /* border: 2px solid black; */
-}
+/* .nav-one{
+      background:black; 
+     border: 2px solid black; 
+} */
 .murkho{
     display: flex;
     justify-content: center;
@@ -504,7 +504,7 @@ color: white;
     text-align: center;
 } 
 
-
+/* 
 @media screen and (max-width: 576px) {
     .navigation,
     .nav-two>ul,
@@ -540,11 +540,11 @@ color: white;
    }
    .paragraph-one{
     font-size: 20px;
-    /* word-wrap: wrap; */
+    word-wrap: wrap; 
    }
    .cards{
-    /* margin-top:5px; */
+    /* margin-top:5px; 
     gap:12px;
    }
     
-}
+} */
